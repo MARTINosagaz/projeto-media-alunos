@@ -4,3 +4,7 @@ nota3 = int(input("digite a terceira nota "))
 nota4 = int(input("digite a quarta nota "))
 media = (nota1 + nota2 + nota3 + nota4)/4
 print(media)
+if media > 6 :
+ print ("aprovado")
+else:
+    print ("reprovado")
